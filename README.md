@@ -51,6 +51,16 @@ git log                    # Ver el historial de commits
 git log --oneline           # Historial resumido, una línea por commit
 ```
 
+## Guardar cambios temporalmente (stash)
+
+```bash
+git stash                  # Guardar cambios sin confirmar y limpiar el working directory
+git stash list              # Ver la lista de stashes guardados
+git stash pop               # Recuperar el último stash y eliminarlo de la lista
+git stash apply             # Recuperar el último stash sin eliminarlo de la lista
+git stash drop               # Eliminar el último stash sin aplicarlo
+```
+
 ## Deshacer cambios
 
 ```bash
